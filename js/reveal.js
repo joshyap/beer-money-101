@@ -47,7 +47,7 @@
 			height: 700,
 
 			// Factor of the display size that should remain empty around the content
-			margin: 0.04,
+			margin: 0.09,
 
 			// Bounds for smallest/largest possible scale to apply to content
 			minScale: 0.2,
@@ -84,7 +84,7 @@
 			// number for the current slide. The function should take in a slide
 			// object and return an array with one string [slideNumber] or
 			// three strings [n1,delimiter,n2]. See #formatSlideNumber().
-			slideNumber: false,
+			slideNumber: true,
 
 			// Can be used to limit the contexts in which the slide number appears
 			// - "all":      Always show the slide number
